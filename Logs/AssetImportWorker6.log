@@ -1,0 +1,558 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 24503 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ariel" at "2026-02-17T20:26:42.1642145Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-17T20:26:42Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Ariel/Desktop/ARO
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64668
+-licensingIpc
+LicenseClient-Ariel
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Ariel/Desktop/ARO
+C:/Users/Ariel/Desktop/ARO
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [6604]  Target information:
+
+Player connection [6604]  * "[IP] 192.168.100.7 [Port] 0 [Flags] 2 [Guid] 3248860903 [EditorId] 3248860903 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BKF48Q2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ariel/Desktop/ARO/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.21923.1000
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              3bfdb1074d034e038d12719dda46dd0b
+  Correlation Id:          aa1ee59d671d39902badb4f1fda7e3a9
+  External correlation Id: 7923419272919218512
+  Machine Id:              RrCbNniWD7KCRrOpNmsYmbiabkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Ariel" (connect: 0.00s, validation: 0.00s, handshake: 0.90s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Ariel-notifications" at "2026-02-17T20:26:43.070922Z"
+[Licensing::Module] Licensing Background thread has ended after 0.91s
+[Licensing::Module] Licensing is initialized (took 0.25s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4673046634790-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.250552 seconds.
+- Loaded All Assemblies, in  0.739 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 269 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (298ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (388ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.319 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 781ms
+	BeginReloadAssembly (191ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (52ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (23ms)
+			BuildScriptInfoCaches (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Custom/RainShader': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 900 unused Assets / (0.8 MB). Loaded Objects now: 1576.
+Memory consumption went from 84.1 MB to 83.3 MB.
+Total: 9.130000 ms (FindLiveObjects: 0.481500 ms CreateObjectMapping: 0.095800 ms MarkObjects: 7.639900 ms  DeleteObjects: 0.910700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 250532.727327 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/concrete2.mat
+  artifactKey: Guid(179dd5e58aedd2f44b8636cb9030879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/concrete2.mat using Guid(179dd5e58aedd2f44b8636cb9030879f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47db4aba847f1f927d64903c5d0fcee6') in 0.2807435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.408907 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/container.mat
+  artifactKey: Guid(020e41f3629ab9a4d8aa98aa454b4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/container.mat using Guid(020e41f3629ab9a4d8aa98aa454b4e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f3c1165418d49855d4f3825e226acca') in 0.0207854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/crate_wood.mat
+  artifactKey: Guid(4ed1c97af5d0195499e5f74a8e5e53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/crate_wood.mat using Guid(4ed1c97af5d0195499e5f74a8e5e53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1183b1cdc89ccad48eb8fe1b53e8cb36') in 0.0204081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/door_wood.mat
+  artifactKey: Guid(c80373a9ae09f344aac7a15d942f04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/door_wood.mat using Guid(c80373a9ae09f344aac7a15d942f04f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd03a3235f05eb7cbc69011760ca2b372') in 0.1207577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788003 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/electro_box.mat
+  artifactKey: Guid(82e7ede8058a8094d9bf1f9e6b3ddd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/electro_box.mat using Guid(82e7ede8058a8094d9bf1f9e6b3ddd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbb32276f0f5df708e9145941ebb5665') in 0.0182722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013852 seconds.
+  path: Assets/ModeloGigante/gi.mat
+  artifactKey: Guid(8a57fae6fd0903546b281fb24d077932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModeloGigante/gi.mat using Guid(8a57fae6fd0903546b281fb24d077932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f307d8dd31eb4d4c352a6fdc04290a2') in 0.0184779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.530830 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
+  artifactKey: Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat using Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74450e119aab11d14f5378fb5a5642e7') in 0.0177228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106804 seconds.
+  path: Assets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbc4f061c15d700bc115b462d34fb3e8') in 0.0504759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109114 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Effects/Projectors/Materials/GridProjector.mat
+  artifactKey: Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Effects/Projectors/Materials/GridProjector.mat using Guid(c7d1a73cf0f423947bae4e238665d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac6fa4d8b2115f0dcb24fc5799ae3f6e') in 0.0178257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100251 seconds.
+  path: Assets/Environment/Art/Models/Structure_Mesh.fbx
+  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafb61c89575f71e3af0421d2421895d') in 0.0257345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.788030 seconds.
+  path: Assets/Environment/Art/Models/Wall_Mesh.fbx
+  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9f67902167481355e0fcd348357b1a9') in 0.0222791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520347 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/house.mat
+  artifactKey: Guid(d50987337d268ab43b2374a6e178d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/house.mat using Guid(d50987337d268ab43b2374a6e178d4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0546cd27bfae63a70c391c6794a1ec47') in 0.0091353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012315 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/house3_concrete_bricks.mat
+  artifactKey: Guid(7e62981cc33806a46b88a7f1058203a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/house3_concrete_bricks.mat using Guid(7e62981cc33806a46b88a7f1058203a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2240f4d40d53ba66160f572f20b274') in 0.0065143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/house3_window_roof.mat
+  artifactKey: Guid(934dbbab6a739e14c9c044779884aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/house3_window_roof.mat using Guid(934dbbab6a739e14c9c044779884aa4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a2b3e8ebaaa4c22779a574c597df8bd') in 0.0074262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020023 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/house_damaged.mat
+  artifactKey: Guid(b6c61944527ef654086a2d4c7fde5785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/house_damaged.mat using Guid(b6c61944527ef654086a2d4c7fde5785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b7b50cc5b43090fce4f405b95ccbbf') in 0.0097677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Character/Materials/M_Armature_Arms.mat
+  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96ac07642999289f7f26b77dc46b30f6') in 0.024343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006376 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/matBodyGen.mat
+  artifactKey: Guid(0fda53311483b7840b72bc0fed4262b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/matBodyGen.mat using Guid(0fda53311483b7840b72bc0fed4262b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f5f91534e49da6739124f914c004ef0') in 0.0217781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052328 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/metals1.mat
+  artifactKey: Guid(7dc8e0007539e444b9aeab4e43dbbe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/metals1.mat using Guid(7dc8e0007539e444b9aeab4e43dbbe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74dfcd5030fc08573411e3192e13c5b2') in 0.0190732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e7889b45cc3880b6ca9ebfbc295b386') in 0.0273755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269344 seconds.
+  path: Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat
+  artifactKey: Guid(2910e09faf380f442a4eda0427b3179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat using Guid(2910e09faf380f442a4eda0427b3179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64f0dd4db0e599d46580835705f877a2') in 0.0178841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.380845 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Skyboxes/Overcast1 Skybox.mat
+  artifactKey: Guid(931987be26c9646429c56f8a4692bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Skyboxes/Overcast1 Skybox.mat using Guid(931987be26c9646429c56f8a4692bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8750163af933f6094d4b7a783afe0ba2') in 0.0384316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027468 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/palette.mat
+  artifactKey: Guid(c95cc328c411137409bd6d7268c7218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/palette.mat using Guid(c95cc328c411137409bd6d7268c7218a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3a3c5c8ae014ec4b282eb2d6e429f46') in 0.0214847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015906 seconds.
+  path: Assets/FantasyEnvironments/Environments/Materials/Plant.mat
+  artifactKey: Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Materials/Plant.mat using Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '301278729d91fc7a4b04908bf12f7bf9') in 0.0074579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024987 seconds.
+  path: Assets/RainMaker/Prefab/RainExplosionMaterial.mat
+  artifactKey: Guid(bd4df8ad7f6a91b4aad18ac427db8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainExplosionMaterial.mat using Guid(bd4df8ad7f6a91b4aad18ac427db8176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e26dc00fabe3e1cd4e69603ca80975e6') in 0.0072666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.478014 seconds.
+  path: Assets/RainMaker/Prefab/RainMaterial.mat
+  artifactKey: Guid(5a5cdbef1fec3ec4ab759228c8234ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainMaterial.mat using Guid(5a5cdbef1fec3ec4ab759228c8234ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5baa29757c23cced135a24433107fc09') in 0.0079628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050481 seconds.
+  path: Assets/RainMaker/Prefab/RainMistMaterial.mat
+  artifactKey: Guid(26903820d8bdf4145af868b7b12d0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RainMaker/Prefab/RainMistMaterial.mat using Guid(26903820d8bdf4145af868b7b12d0e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff4caaf1a4c9d2d613ededb43445eff') in 0.0068497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058611 seconds.
+  path: Assets/FantasyEnvironments/Environments/Materials/Rock1.mat
+  artifactKey: Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FantasyEnvironments/Environments/Materials/Rock1.mat using Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389c4442c29fcf67da441d0f4fa773f5') in 0.0068198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.959758 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/roof_tiled.mat
+  artifactKey: Guid(c382b33539728ce45913a10295fcd5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/roof_tiled.mat using Guid(c382b33539728ce45913a10295fcd5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '476d7dfcb6796cc1231de0768d0b5871') in 0.0062139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464101 seconds.
+  path: Assets/Environment/Art/Materials/ShaderGraphGrid_01_Mat.mat
+  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Materials/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '935220379bf8e2243b68a33b96216d0c') in 0.0070404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040317 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/silo.mat
+  artifactKey: Guid(13edc561ea09564428d72b7e6af29dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/silo.mat using Guid(13edc561ea09564428d72b7e6af29dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c43395698e4d09477c93ace8e19f459') in 0.0062172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025760 seconds.
+  path: Assets/Environment/Art/Skybox/SkyboxLite.mat
+  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dab700e4a457d7cfdcd68ffa98b5c78') in 0.0859882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.031537 seconds.
+  path: Assets/Character_Elf/Stand/Mesh/Stand.mat
+  artifactKey: Guid(c0385c6b10bcc1a469efc98e3d6c1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Elf/Stand/Mesh/Stand.mat using Guid(c0385c6b10bcc1a469efc98e3d6c1c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d5bcf2bd2d810a97c6d37316ea73c03') in 0.1110544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.088056 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Skyboxes/Sunny1 Skybox.mat
+  artifactKey: Guid(098e9567d3a634240960f845ec98d76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Skyboxes/Sunny1 Skybox.mat using Guid(098e9567d3a634240960f845ec98d76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce91a226c282fa91223e7bdeb0649c2') in 0.0159696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015173 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Skyboxes/Sunny3 Skybox.mat
+  artifactKey: Guid(53412155bc1016547b1a77b2333c0380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Skyboxes/Sunny3 Skybox.mat using Guid(53412155bc1016547b1a77b2333c0380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b6507c060529158d08af5129e7f088e') in 0.0254969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.455762 seconds.
+  path: Assets/LowPolyBuildings/Prefabs/Materials/switch1.mat
+  artifactKey: Guid(46d143327712fe942b4a5527fa9776b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Prefabs/Materials/switch1.mat using Guid(46d143327712fe942b4a5527fa9776b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a019be1145adcf3a72cb622d1ec395c') in 0.0062433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074892 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b65355c0a87052643ca8e4613937c3f') in 0.0183816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.079346 seconds.
+  path: Assets/LowPolyBuildings/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat
+  artifactKey: Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat using Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c3bb65ecded8661a8a334d4de80fc2c') in 0.1076884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201578 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/wall.mat
+  artifactKey: Guid(be96b883acb07404c90d735dd81bc02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/wall.mat using Guid(be96b883acb07404c90d735dd81bc02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5189624666da85edc3fcb80261bc179') in 0.0069467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.875280 seconds.
+  path: Assets/LowPolyBuildings/Models/Materials/window_rollup_door1.mat
+  artifactKey: Guid(621e96f0501e52144a5593512d9f99c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyBuildings/Models/Materials/window_rollup_door1.mat using Guid(621e96f0501e52144a5593512d9f99c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ddf372d61981d9f7e3f06e07874b46') in 0.019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.548874 seconds.
+  path: Assets/Scenes/Playground.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Playground.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42203e032e8725dec2f18e806c01c5e6') in 0.0711699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.398115 seconds.
+  path: Assets/RainMaker/Prefab/RainMistMaterial.mat
+  artifactKey: Guid(26903820d8bdf4145af868b7b12d0e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RainMaker/Prefab/RainMistMaterial.mat using Guid(26903820d8bdf4145af868b7b12d0e18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53befc5d1e3e13bfe4d130ec7d0c0a5c') in 0.0372099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
